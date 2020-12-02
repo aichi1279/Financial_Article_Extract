@@ -55,3 +55,38 @@ python3 precision_recall_F.py
 
 
 以上！
+
+
+<環境構築編　Ubuntu(Linux)対応><br>
+sudo apt update<br>
+sudo apt upgrade<br>
+sudo apt install vim<br>
+sudo apt install lv<br>
+sudo apt install dbus-x11<br>
+sudo apt install gconf2<br>
+sudo apt install p7zip-full<br>
+sudo apt install fonts-ipafont<br>
+sudo apt install gcc<br>
+sudo apt install g++<br>
+sudo apt install make<br>
+sudo apt install emacs<br>
+sudo apt install emacs-mozc<br>
+sudo apt install mecab<br>
+sudo apt install mecab-ipadic-utf8<br>
+sudo apt install swig<br>
+
+<Pythonの設定編><br>
+sudo apt install python3-pip<br>
+sudo apt install python3-dev<br>
+sudo pip3 install --upgrade pip<br>
+sudo pip3 install --upgrade numpy<br>
+sudo pip3 install --upgrade scikit-learn<br>
+sudo pip3 install --upgrade gensim<br>
+sudo pip3 install --upgrade h5py<br>
+sudo pip3 install --upgrade joblib<br>
+sudo pip3 install --upgrade paramiko<br>
+sudo pip3 install --upgrade mecab-python3<br>
+sudo pip3 install --upgrade tensorflow<br>
+sudo pip3 install --upgrade keras<br>
+cd /usr/local/etc/　　<br>
+sudo ln -s /etc/mecabrc<br>
